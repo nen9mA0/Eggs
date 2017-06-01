@@ -1,0 +1,57 @@
+#product {
+ width:1250px;
+ height:px;
+ border:1px solid #ccc;
+ margin:0 5px 5px 0;
+ float:left;
+}
+#product div#content {
+ position:relative;
+ width:1250px;
+ height:700px;
+ display:inline-block;
+ overflow:hidden;
+ float:left;
+}
+#product div#content_list {
+ position:absolute;
+ width:4000px;
+}
+#product dl{
+ width:400px;
+ height:600px;
+ float:left;
+ margin:10px 4px;
+ padding:2px 2px;
+}
+#product dl:hover {
+ border:1px solid #333;
+ background:#ccc;
+}
+#product dl dt {
+
+}
+#product dl dt img {
+ width:400px;
+ height:600px;
+ border:none;
+}
+#product dl dd {
+ text-align:center;
+}
+#product span.prev{
+ cursor:pointer;
+ display:inline-block;
+ width:15px;
+ height:150px;
+ background:url(../images/arrow_l.gif) no-repeat left center;
+ float:left;
+}
+#product span.next{
+ cursor:pointer;
+ display:inline-block;
+ width:15px;
+ height:150px;
+ background:url(../images/arrow_r.gif) no-repeat left center;
+ float:right;
+}
