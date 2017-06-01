@@ -3,6 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>亲，下次来么</title>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -15,14 +19,27 @@
 
 <div align="center">
 <p>
-	<a href="我一定来.html"><button>好的小姐姐<img src="src/rose.png" /></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
-    <a href="Page not found.html"><button>拒绝<img src="src/rose2.png"></button>
+	<button id="b1">好的小姐姐<img src="src/rose.png" /></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+    <button id="b2">拒绝<img src="src/rose2.png"></button>
 </p>
 
 <p style="display:none"><a href="You Found it.html" />You Found it.html</p>
 
 </div>
 
+<script>
+	$(document).ready(function(){
+		$("#b1").click(function(){
+			window.open("我一定来.html");	
+			});
+		});
+
+	$(document).ready(function(){
+		$("#b2").click(function(){
+				$(this).hide();
+			});
+		});
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
